@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #6B2D6B, #8B4789);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        #about {
+            background-color: #F5E6F5;
+            border-left: 5px solid #8B4789;
+        }
+
+        #skills {
+            background-color: #FFF4E6;
+            border-left: 5px solid #FF8C00;
+        }
+
+        #goals {
+            background-color: #F5E6F5;
+            border-left: 5px solid #8B4789;
+        }
+
+        h2 {
+            color: #8B4789;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            color: #FF8C00;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #FF8C00;
+        }
+
+        section h3:first-of-type {
+            margin-top: 0;
+        }
+
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .interest-item {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .interest-item span {
+            font-size: 1.5rem;
+            margin-right: 0.5rem;
+        }
+
+        #skills ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        #skills li {
+            margin-bottom: 0.5rem;
+        }
+
+        #skills p strong {
+            display: block;
+            margin-top: 0.75rem;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #8B4789, #6B2D6B);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        footer h2 {
+            color: white;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Eddie's Page</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Eddie and I am a marketing specialist and father of an amazing 11 yr old girl. My hobbies and personal interests include:</p>
+        <div class="interests">
+            <div class="interest-item"><span>🏂</span> Snowboarding</div>
+            <div class="interest-item"><span>🏃</span> Jogging</div>
+            <div class="interest-item"><span>🥊</span> Boxing</div>
+            <div class="interest-item"><span>🎢</span> Theme Parks</div>
+            <div class="interest-item"><span>🧘</span> Meditation</div>
+            <div class="interest-item"><span>🃏</span> Poker Tournaments</div>
+            <div class="interest-item"><span>🏠</span> Real Estate Investing</div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Current Skills</h3>
+        <p><strong>Marketing Skills:</strong></p>
+        <ul>
+            <li>Brand Management</li>
+            <li>Event & Experiential Marketing</li>
+            <li>Social Media and Influencer Marketing</li>
+        </ul>
+        <p><strong>Project Management Skills:</strong></p>
+        <ul>
+            <li>Strategic Planning</li>
+            <li>Cross-Functional Leadership</li>
+            <li>Team Management</li>
+            <li>Client Relations</li>
+            <li>Committee Reporting</li>
+        </ul>
+        <p><strong>Communication Skills:</strong></p>
+        <ul>
+            <li>Executive Presentations</li>
+            <li>Stakeholder Engagement</li>
+        </ul>
+        
+        <h3>Future Skills</h3>
+        <ul>
+            <li><strong>Marketing Tech/Dev Ops Skills</strong></li>
+            <li><strong>AI Building Skills</strong></li>
+        </ul>
+    </section>
+
+    <section id="goals">
+        <h2>Goals & Projects</h2>
+        <p>I want to build on my 20 years of Management experience in Marketing and pivot to more hands-on skills used in Tech/DevOps jobs</p>
+        <p>I also want to create an app that scrapes MLS listings to identify cash-flowing properties based on User criteria. This would save investors hours of research and analysis.</p>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Cell: 646.462.8955</p>
+        <p>Email: Eddie.lopez@pursuit.org</p>
+    </footer>
+</body>
+</html>
+
+
